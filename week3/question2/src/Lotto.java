@@ -5,7 +5,7 @@ class Lotto {
 
     public void startGame() {
         LottoGame lottoGames = new LottoGame();
-        String userNumber = String.valueOf(lottoGames.lottoGame());  // Get user input and convert it to string
+        String userNumber = String.valueOf(lottoGames.lottoGame());  
         Random rand = new Random();
         String total = "";
 
